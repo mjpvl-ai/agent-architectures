@@ -1,0 +1,12 @@
+[project]
+name = "advanced-multi-agent-orchestration"
+version = "0.1.0"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "acp-sdk",
+    "langchain-core>=0.3.75",
+    "langgraph>=0.6.6",
+]
+
+[tool.uv.sources]
+acp-sdk = { path = '../../../python', editable = true }
